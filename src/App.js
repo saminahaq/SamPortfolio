@@ -7,7 +7,7 @@ import Testimonial from "./component/Testimonial/Testimonial";
 import Resume from "./component/Resume/Resume";
 import Portfolio from "./component/Portfolio/Portfolio";
 import Features from "./component/Features/Features";
-import Home from "./component/Hero/Home";
+import Home from "./component/Samina/Home";
 
 import "./App.css";
 

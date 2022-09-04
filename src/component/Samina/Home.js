@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import hero from "../pic/hero.png";
 
 import Typewriter from "typewriter-effect";
 

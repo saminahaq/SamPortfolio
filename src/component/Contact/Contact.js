@@ -49,26 +49,21 @@ const Contact = () => {
                   <img src={contact1} alt="" />
                 </div>
                 <div className="details">
-                  <h1>Nevine Acotanza</h1>
-                  <p>Chief Operating Officer</p>
-                  <p>
-                    I am available for freelance work. Connect with me via and
-                    call in to my account.
-                  </p>{" "}
+                  <h1>Technopreneur</h1>
                   <br />
-                  <p>Phone: +01234567890</p>
-                  <p>Email: admin@example.com</p> <br />
+                  <p>How to reach me</p>
+                  <p>Email: snaseemu@student.ubc.ca</p> <br />
                   <span>FIND WITH ME</span>
                   <div className="button f_flex">
                     <button className="btn_shadow">
-                      <i className="fab fa-facebook-f"></i>
+                      <i className="fab fa-linkedin-in"></i>
                     </button>
-                    <button className="btn_shadow">
+                    {/* <button className="btn_shadow">
                       <i className="fab fa-instagram"></i>
                     </button>
                     <button className="btn_shadow">
                       <i className="fab fa-twitter"></i>
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>

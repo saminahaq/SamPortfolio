@@ -37,13 +37,14 @@ const Card = (props) => {
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content d_flex">
-            <div className="modal-img left">
-              <img src={props.image} alt="" />
-            </div>
+            <div className="modal-img left"></div>
             <div className="modal-text right">
-              <span>Featured - Design</span>
-              <h1>{props.title}</h1>
-              <p>Coming Soon!</p>
+              <img src={props.image} alt="" />
+
+              <div className="modal-text">
+                <h1>{props.title}</h1>
+                <div>{props.desc}</div>
+              </div>
               <div className="button f_flex mtop">
                 <button className="btn_shadow">
                   LIKE THIS <i class="far fa-thumbs-up"></i>
