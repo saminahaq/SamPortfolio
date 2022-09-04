@@ -17,7 +17,7 @@ const Resume = () => {
             <div className="left">
               <div className="heading">
                 <h4>2007-2010</h4>
-                <h1>Education Quality</h1>
+                <h1>EDUCATION</h1>
               </div>
 
               <div className="content">
@@ -28,7 +28,7 @@ const Resume = () => {
                         key={id}
                         title={val.title}
                         year={val.year}
-                        rate={val.rate}
+                        // rate={val.rate}
                         desc={val.desc}
                       />
                     );
@@ -53,7 +53,7 @@ const Resume = () => {
             <div className="left">
               <div className="heading">
                 <h4>2007-2010</h4>
-                <h1>Job Experience</h1>
+                <h1>PROFESSIONAL EXPERIENCE</h1>
               </div>
 
               <div className="content">

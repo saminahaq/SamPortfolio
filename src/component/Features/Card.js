@@ -14,6 +14,7 @@ const Card = (props) => {
   } else {
     document.body.classList.remove("active-modal");
   }
+
   return (
     <>
       <div className="box btn_shadow">
@@ -45,60 +46,64 @@ const Card = (props) => {
             <div className="modal-img left">
               <img src={props.image} alt="" />
             </div>
-            <div className="modal-text right">
-              <span>Featured - Design</span>
+            <div className="modal-text center">
               <h1>{props.title}</h1>
+
               <p>
                 <Table striped="columns">
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>First Name</th>
-                      <th>Last Name</th>
-                      <th>Username</th>
-                    </tr>
-                  </thead>
                   <tbody>
                     <tr>
-                      <td>1</td>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
+                      <th>Programming Language</th>
+                      <td>JDK 6 to JDK 17</td>
                     </tr>
                     <tr>
-                      <td>2</td>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
+                      <th>Spring Framework 5</th>
+                      <td>
+                        Spring Core, Spring Web Flux [Reactive Programming],
+                        Spring Boot, Spring Cloud, Spring Data, Spring Batch,
+                        Spring Security, Spring HATEOS
+                      </td>
                     </tr>
                     <tr>
-                      <td>3</td>
-                      <td colSpan={2}>Larry the Bird</td>
-                      <td>@twitter</td>
+                      <th>Functional Programming</th>
+                      <td>
+                        Function Composition, Fluent Interface, Streams,
+                        Optional and Monad, lambda Expression
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Reactive Programming</th>
+                      <td>
+                        Transforming Reactive [Mapping, Filtering, collecting,
+                        Reducing, Combining], Flux and Mono Reactive types, Hot
+                        and Cold Streams, Backpressure
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Microservice Architecture</th>
+                      <td>
+                        Eureka Service Discovery, Eureka Client, API Gateway,
+                        Hystrix Configuration, Hystrix Dashboard Configuration,
+                        Cloud Config Server, Zipkin Server (Zipkin Client and
+                        Sleuth Library)
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Design Pattern</th>
+                      <td>
+                        Factory Pattern, Façade Pattern, Compound Pattern [MVC],
+                        Observer Pattern, JPA, AOP, CQRS Design Pattern, Event
+                        Driven Microservices, REST APIs, GraphQL APIs
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Testing</th>
+                      <td>Junit5 and Mockito</td>
                     </tr>
                   </tbody>
                 </Table>
-                Programming Language Spring Framework 5 Functional Programming
-                Reactive Programming Microservice Architecture Design Pattern
-                Testing In-memory databases Database Back-End Stack JDK 6 to JDK
-                17 Spring Core, Spring Web Flux [Reactive Programming], Spring
-                Boot, Spring Cloud, Spring Data, Spring Batch, Spring Security,
-                Spring HATEOS Function Composition, Fluent Interface, Streams,
-                Optional and Monad, lambda Expression Transforming Reactive
-                [Mapping, Filtering, collecting, Reducing, Combining], Flux and
-                Mono Reactive types, Hot and Cold Streams, Backpressure Eureka
-                Service Discovery, Eureka Client, API Gateway, Hystrix
-                Configuration, Hystrix Dashboard Configuration, Cloud Config
-                Server, Zipkin Server (Zipkin Client and Sleuth Library) Factory
-                Pattern, Façade Pattern, Compound Pattern [MVC], Observer
-                Pattern, JPA, AOP, CQRS Design Pattern, Event Driven
-                Microservices, REST APIs, GraphQL APIs Junit5 and Mockito
               </p>
-              <p>
-                Consectetur adipisicing elit. Cupiditate distinctio assumenda.
-                dolorum alias suscipit rerum maiores aliquam earum odit, nihil
-                culpa quas iusto hic minus!
-              </p>
+
               <div className="button f_flex mtop">
                 <button className="btn_shadow">
                   LIKE THIS <i class="far fa-thumbs-up"></i>
