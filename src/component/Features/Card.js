@@ -48,8 +48,8 @@ const Card = (props) => {
             </div>
             <div className="modal-text center">
               <h1>{props.title}</h1>
-
-              <p>
+              <div>{props.list}</div>
+              {/* <p>
                 <Table striped="columns">
                   <tbody>
                     <tr>
@@ -101,8 +101,8 @@ const Card = (props) => {
                       <td>Junit5 and Mockito</td>
                     </tr>
                   </tbody>
-                </Table>
-              </p>
+                </Table> 
+              </p>*/}
 
               <div className="button f_flex mtop">
                 <button className="btn_shadow">

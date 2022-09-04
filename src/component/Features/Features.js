@@ -21,6 +21,7 @@ const Features = () => {
                   image={val.image}
                   title={val.title}
                   desc={val.desc}
+                  list={val.list}
                 />
               );
             })}
