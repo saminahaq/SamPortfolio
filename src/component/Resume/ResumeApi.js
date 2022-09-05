@@ -9,7 +9,7 @@ const ResumeApi = [
   {
     id: 2,
     category: "education",
-    year: "University of Toronto (ECA) ",
+    year: "University of Toronto (ECA), Canada ",
     title: "Master of Business Administration",
     desc: "MBA (Finance)",
   },

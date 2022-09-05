@@ -56,7 +56,7 @@ const Card = (props) => {
               </button>
 
               {/*---------Leave Message----------  */}
-              <div className="contact mtop">
+              {/* <div className="contact mtop">
                 <h1>Leave a Reply</h1>
 
                 <form className="blog_contact d_flex">
@@ -74,7 +74,7 @@ const Card = (props) => {
                     ></textarea>
                   </div>
                 </form>
-              </div>
+              </div> */}
               {/*---------Leave Message----------  */}
             </div>
           </div>

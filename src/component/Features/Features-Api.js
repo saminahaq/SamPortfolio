@@ -32,7 +32,7 @@ const data = [
     image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
     title: "Personal Portfolio",
     desc: " 🌱 I’m currently learning Fintech stack",
-    list: "I am studing Machine Learning in Finance",
+    list: "Currently, I am studing Machine Learning in Finance",
   },
   {
     id: 6,

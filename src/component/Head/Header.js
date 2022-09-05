@@ -47,18 +47,18 @@ const Header = () => {
               <li>
                 <a href="#contact">contact</a>
               </li>
-              <li>
+              {/* <li>
                 <button className="home-btn">BUY NOW</button>
-              </li>
+              </li> */}
             </ul>
 
-            <button className="toggle" onClick={() => setMobile(!Mobile)}>
+            {/* <button className="toggle" onClick={() => setMobile(!Mobile)}>
               {Mobile ? (
                 <i className="fas fa-times close home-btn"></i>
               ) : (
                 <i className="fas fa-bars open"></i>
               )}
-            </button>
+            </button> */}
           </div>
         </div>
       </header>

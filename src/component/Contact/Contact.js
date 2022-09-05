@@ -52,8 +52,8 @@ const Contact = () => {
                   <h1>Technopreneur</h1>
                   <br />
                   <p>How to reach me</p>
-                  <p>Email: snaseemu@student.ubc.ca</p> <br />
-                  <span>FIND WITH ME</span>
+                  {/* <p>Email: </p> <br /> */}
+
                   <div className="button f_flex">
                     <button className="btn_shadow">
                       <i className="fab fa-linkedin-in"></i>
