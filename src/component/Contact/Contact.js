@@ -52,7 +52,7 @@ const Contact = () => {
                   <h1>Technopreneur</h1>
                   <br />
                   <p>How to reach me...</p>
-                  {/* <p>Email: </p> <br /> */}
+                  {/* <p>Email: </p> <br /> */
 
                   <div className="button f_flex">
                     <button className="btn_shadow">
