@@ -4,7 +4,7 @@ import Slide from "./Slide";
 import TestimonialApi from "./TestimonialApi";
 
 const Testimonial = () => {
-  const [data, setdata] = useState(TestimonialApi);
+  const [data] = useState(TestimonialApi);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {

@@ -22,17 +22,15 @@ const Resume = () => {
 
               <div className="content">
                 {ResumeApi.map((val, id) => {
-                  if (val.category === "education") {
-                    return (
-                      <Card
-                        key={id}
-                        title={val.title}
-                        year={val.year}
-                        // rate={val.rate}
-                        desc={val.desc}
-                      />
-                    );
-                  }
+                  return val.category === "education" ? (
+                    <Card
+                      key={id}
+                      title={val.title}
+                      year={val.year}
+                      // rate={val.rate}
+                      desc={val.desc}
+                    />
+                  ) : null;
                 })}
 
                 {/*<div className='box btn_shadow'>
@@ -58,17 +56,15 @@ const Resume = () => {
 
               <div className="content">
                 {ResumeApi.map((val, index) => {
-                  if (val.category === "experience") {
-                    return (
-                      <Card
-                        key={index}
-                        title={val.title}
-                        year={val.year}
-                        rate={val.rate}
-                        desc={val.desc}
-                      />
-                    );
-                  }
+                  return val.category === "experience" ? (
+                    <Card
+                      key={index}
+                      title={val.title}
+                      year={val.year}
+                      rate={val.rate}
+                      desc={val.desc}
+                    />
+                  ) : null;
                 })}
               </div>
             </div>
