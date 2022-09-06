@@ -39,7 +39,7 @@ const Contact = () => {
         <div className="container top">
           <div className="heading text-center">
             <h4>CONTACT</h4>
-            <h1>Contact With Me...</h1>
+            <h1>Contact Me</h1>
           </div>
 
           <div className="content d_flex">
@@ -50,14 +50,14 @@ const Contact = () => {
                 </div>
                 <div className="details">
                   <h1>Technopreneur</h1>
+                  <h2>MBA, BS(CS)</h2>
                   <br />
                   <p>How to reach me...</p>
                   {/* <p>Email: </p> <br /> */}
-
                   <div className="button f_flex">
-                    <button className="btn_shadow">
+                    {/* <button className="btn_shadow">
                       <i className="fab fa-linkedin-in"></i>
-                    </button>
+                    </button> */}
                     {/* <button className="btn_shadow">
                       <i className="fab fa-instagram"></i>
                     </button>
