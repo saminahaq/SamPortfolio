@@ -88,7 +88,7 @@ const Home = () => {
               </div>
 
               <div className="col_1">
-                <h4>BEST SKILL ON</h4>
+                <h4>BEST SKILLS ON</h4>
                 <button className="btn_shadow">
                   <div>
                     <i class="fab fa-java"></i>
